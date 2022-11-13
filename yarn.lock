@@ -827,7 +827,7 @@ postcss@^8.4.18:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-prop-types@15.x, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -844,13 +844,18 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-draggable@^4.0.3, react-draggable@^4.4.5:
+react-draggable@^4.4.5:
   version "4.4.5"
   resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-4.4.5.tgz#9e37fe7ce1a4cf843030f521a0a4cc41886d7e7c"
   integrity sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g==
   dependencies:
     clsx "^1.1.1"
     prop-types "^15.8.1"
+
+react-icomoon@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/react-icomoon/-/react-icomoon-2.5.4.tgz#f7e8a22b31be20f61168cde8c61a66e79ba4d1e5"
+  integrity sha512-C+xh0F2rB3FyA+6MozU7WDTSj4UPr3BAy/mGqTLwfDA3zgt2RB+l25A7CecX9eHaM/feOSwCoEu/GGiDlK+nqg==
 
 react-is@^16.13.1:
   version "16.13.1"
@@ -870,13 +875,10 @@ react-refresh@^0.14.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
 
-react-resizable@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-3.0.4.tgz#aa20108eff28c52c6fddaa49abfbef8abf5e581b"
-  integrity sha512-StnwmiESiamNzdRHbSSvA65b0ZQJ7eVQpPusrSmcpyGKzC0gojhtO62xxH6YOBmepk9dQTBi9yxidL3W4s3EBA==
-  dependencies:
-    prop-types "15.x"
-    react-draggable "^4.0.3"
+react-webcam@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/react-webcam/-/react-webcam-7.0.1.tgz#8249e1d621eb4bba7e3f52135f562439d0528df3"
+  integrity sha512-8E/Eb/7ksKwn5QdLn67tOR7+TdP9BZdu6E5/DSt20v8yfW/s0VGBigE6VA7R4278mBuBUowovAB3DkCfVmSPvA==
 
 react@^18.2.0:
   version "18.2.0"

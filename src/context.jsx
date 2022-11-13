@@ -7,8 +7,18 @@ function EditorProvider({ children }) {
     const [html, setHtml] = useState('');
     const [css, setCss] = useState('');
     const [js, setJs] = useState('');
-    
-    const value = { html, setHtml, css, setCss, js, setJs }
+    const [webcamOn, setWebcamOn] = useState(false)
+
+    const value = {
+        html,
+        setHtml,
+        css,
+        setCss,
+        js,
+        setJs,
+        webcamOn,
+        setWebcamOn,
+    }
 
     return (
         <EditorContext.Provider value={value}>

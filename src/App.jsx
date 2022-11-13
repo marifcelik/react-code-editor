@@ -1,8 +1,7 @@
-import { EditorProvider } from './context'
+import { EditorProvider } from '@/context'
 import CodeEditor from '@/components/CodeEditor'
 import Header from '@/components/Header'
 import Preview from '@/components/Preview'
-import Footer from '@/components/Footer'
 import './App.css'
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
       <div className="container">
         <Header />
         <Preview />
-        <Footer />
       </div>
     </EditorProvider>
   )

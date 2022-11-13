@@ -1,4 +1,4 @@
-button {
+button, a.download {
     display: flex;
     height: 50px;
     width: calc(100% / 3);
@@ -17,4 +17,8 @@ button[active] {
 
 button:focus-visible {
     border: 1px solid rebeccapurple;
+}
+
+button:not([active]):hover {
+    background-color: #444;
 }

@@ -1,4 +1,15 @@
-iframe {
+iframe,
+.splash {
     width: 100%;
-    height: 100%;
+    height: calc(100% - 5rem);
+}
+
+.splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+    color: rgba(255, 255, 255, .2);
+    font-size: 3rem;
+    font-weight: bold;
 }

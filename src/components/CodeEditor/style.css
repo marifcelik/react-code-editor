@@ -1,6 +1,7 @@
 aside {
-    width: 35rem;
+    width: 50rem;
     padding: 0 15px;
+    background-color: #242424;
     border-right: 3px solid #333;
 }
 

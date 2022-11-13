@@ -1,10 +1,15 @@
 import { useContext, EditorContext } from '@/context';
+import { useMemo } from 'react';
 import './style.css'
 
 function Preview() {
     const { html, css, js } = useContext(EditorContext);
 
-    const srcDoc = `
+    const srcDoc = useMemo(() => {
+        if (!(html || css || js))
+            return false
+
+        return `
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -16,14 +21,15 @@ function Preview() {
         </head>
         <body>
             ${html}
-            <script>${js}</script>
+            <script type="module">${js}</script>
         </body>
         </html>
     `
+    }, [html, css, js])
 
     return (
         <>
-            <iframe srcDoc={srcDoc} />
+            {srcDoc ? <iframe srcDoc={srcDoc} /> : <div className='splash'>// no comment</div>}
         </>
     )
 }
