@@ -1,0 +1,13 @@
+aside {
+    width: 35rem;
+    padding: 0 15px;
+    border-right: 3px solid #333;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    gap: 5%;
+}
